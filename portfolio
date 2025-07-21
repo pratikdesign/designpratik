@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pratik Design — Logo Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      text-align: center;
+    }
+    header {
+      padding: 60px 20px 20px;
+    }
+    .logo-title {
+      font-size: 50px;
+      font-weight: bold;
+      color: black;
+      text-shadow: 0 0 15px #39ff14, 2px 2px 5px #39ff14;
+    }
+    .tagline {
+      font-size: 18px;
+      color: #aaa;
+      margin-top: 10px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 30px;
+    }
+    .card {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      padding: 20px;
+      width: 280px;
+      box-shadow: 0 0 10px #39ff1477;
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin-top: 15px;
+      font-size: 22px;
+      color: #39ff14;
+    }
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+    }
+    footer {
+      margin: 60px 0 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-title">Pratik Design</div>
+    <div class="tagline">Curated Logos for Every Style</div>
+  </header>
+
+  <section class="gallery">
+    <div class="card">
+      <img src="images/pixelreaper.png" alt="Gaming Logo — PixelReaper" />
+      <h3>PixelReaper</h3>
+      <p>A fierce gaming logo designed with cyberpunk vibes and digital glow.</p>
+    </div>
+    <div class="card">
+      <img src="images/moonpetal.png" alt="Anime Logo — MoonPetal" />
+      <h3>MoonPetal</h3>
+      <p>Soft anime-style branding with pastel tones and celestial flair.</p>
+    </div>
+    <div class="card">
+      <img src="images/velvetfade.png" alt="Aesthetic Logo — VelvetFade" />
+      <h3>VelvetFade</h3>
+      <p>Minimal and serene visual mark inspired by aesthetic elegance.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Pratik Design • Showcase powered by creativity 💚
+  </footer>
+
+</body>
+</html>
